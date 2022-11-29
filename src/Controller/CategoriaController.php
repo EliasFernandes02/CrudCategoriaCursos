@@ -41,7 +41,7 @@ class CategoriaController extends AbstractController
             }
             die('Vish, aconteceu um erro');
         }
-        $this->redirect('categorias/listar');      
+        $this->redirect('/categorias/listar');      
     }
 
     public function editar() : void
@@ -60,15 +60,16 @@ class CategoriaController extends AbstractController
 
                 die('Deu bom');
             }
-            $this->redirect('categorias/listar');
+            $this->redirect('/categorias/listar');
         }
     }
+    
 
     public function excluir() : void
     {
         $id = $_GET['id'];
         $this->repository->excluir($id);
         
-        $this->redirect('categorias/listar');
+        $this->redirect('/categorias/listar');
     }
 } 
