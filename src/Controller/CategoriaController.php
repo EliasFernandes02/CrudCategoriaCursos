@@ -64,7 +64,6 @@ class CategoriaController extends AbstractController
         }
     }
     
-
     public function excluir() : void
     {
         $id = $_GET['id'];
