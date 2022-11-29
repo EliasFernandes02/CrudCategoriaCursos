@@ -4,6 +4,7 @@ use App\Controller\AlunoController;
 use App\Controller\AuthController;
 use App\Controller\CursoController;
 use App\Controller\ProfessorController;
+use App\Controller\CategoriaController;
 use App\Controller\SiteController;
 use App\Controller\UserController;
 
@@ -34,6 +35,11 @@ $rotas = [
     '/cursos/novo' => criarRota(CursoController::class, 'cadastrar'),
     '/cursos/editar' => criarRota(CursoController::class, 'editar'),
     '/cursos/excluir' => criarRota(CursoController::class, 'excluir'),
+
+    '/categorias/listar' => criarRota(CategoriaController::class, 'listar'),
+    '/categorias/novo' => criarRota(CategoriaController::class, 'cadastrar'),
+    '/categorias/editar' => criarRota(CategoriaController::class, 'editar'),
+    '/categorias/excluir' => criarRota(CategoriaController::class, 'excluir'),
 
     '/professores/listar' => criarRota(ProfessorController::class, 'listar'),
     '/professores/novo' => criarRota(ProfessorController::class, 'cadastrar'),
