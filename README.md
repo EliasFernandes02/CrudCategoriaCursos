@@ -2,9 +2,9 @@
 
 
 ### Requesitos necessários para executar o projeto:
-Instalar o PHP,
-Instale o Mysql ou MariaDb,
-instale o Composer
+Instalar o PHP versão ^7.4,
+Instale o Mysql ou MariaDb versão 8.0,
+instale o Composer 2.3.7
 
 ### Para iniciar o servidor:
 Crie uma pasta e abra ela no VScode.
