@@ -38,3 +38,7 @@ Depois disso utilize o menu para navegar em categorias
 
 ## Operações :
 As operações estão bastante intuitivas, basta seguir os botões que estão na tela para fazer as operações.
+Para gerar o PDF basta acessar a rota:
+`http://localhost:3000/cursos/listar`
+
+Clicar no botão para gerar PDF, ele irá gerar um PDF com os dados cadastrados no banco de dados.
