@@ -10,12 +10,13 @@ instale o Composer 2.3.7
 Crie uma pasta e abra ela no VScode.
 
 Dentro da pasta, clone o projeto no terminal:
-` git clone {link do clone}`
+` git clone ...`
 Dentro da pasta do projeto dê os seguintes comandos no terminal:
 `composer install`
 
 `php -S localhost:3000 -t public` 
 
+## Acesso ao projeto 
 Para ter acesso a primeira página do projeto utilize a rota:
 
 http://localhost:3000/cursos/listar
